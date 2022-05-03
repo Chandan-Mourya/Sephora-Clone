@@ -88,4 +88,53 @@ input{
 
 #bottom_navbar{
     height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+   
+    font-weight: bold;
+}
+
+.dropbtn{
+    color: black;
+    font-family: Avenir-NextBold;
+}
+.dropbtn:hover{
+    color: red;
+}
+/* hoverable  */
+
+.dropdown {
+    display: inline-block;
+    margin-top: -4px;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50px;
+    min-width: 95%;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    border: 2px solid red;
+    height:400px;
+
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }  
+
+  .mega-menu {
+    display: flex;
+    /* background-color: white; */
+    position: relative;
+    /* top: 32px; */
+    font-family: "Begum", sans-serif;
+    justify-content: space-evenly;
+  }
+.filter > P{
+    font-size: 12px;
 }
