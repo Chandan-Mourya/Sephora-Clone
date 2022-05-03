@@ -1,0 +1,48 @@
+#navbar{
+    border:2px solid red;
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 5px;
+}
+#navbar > div {
+    border: 2px solid blue;
+    
+    
+}
+#top_navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 20%;
+}
+#top_navbar > div{
+    height:99%;
+    width: 33%;
+    border: 1px solid teal;
+    font-size: 17px;
+    
+
+}
+#top-a > p{
+    padding-left: 30px;
+ 
+    
+}
+#top-b{
+    text-align: center;
+}
+#top-c{
+    text-align: end;
+    padding-right: 30px;
+}
+
+#mid_navbar{
+    height: 40%;
+}
+
+#bottom_navbar{
+    height: 20%;
+}
