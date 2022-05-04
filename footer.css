@@ -1,0 +1,58 @@
+#top{
+    border: 1px solid red;
+    height:60px;
+    width: 200px;
+    margin: auto;
+  background-color: yellowgreen;
+  text-align: center;
+
+}
+#mid{
+    border: 1px solid blue;
+    text-align: center;
+    background-color: #ddd;
+
+}
+#mid > h2{
+    font-weight: 700;
+    font-family: Avenir-NextBold;
+    line-height: 28px;
+    size: 24px;
+}
+#mid > input {
+    height: 50px;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#mid > button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:Avenir-NextBold;
+    line-height: 21px;
+    color: white;
+    background-color: black;
+
+}
+
+#bottom{
+    border: 1px solid greenyellow;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#bottom > p{
+    font-size: 14px;
+}
+#contact{
+    display:flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+
+h3:hover{
+    color: red;
+}

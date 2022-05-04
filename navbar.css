@@ -142,3 +142,18 @@ input{
     color: red;
     cursor: pointer;
 }
+#icons{
+    /* border: 1px solid red; */
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color:black ;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+i:hover{
+    color: red;
+}
