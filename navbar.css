@@ -118,7 +118,7 @@ input{
     min-width: 95%;
     /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
     z-index: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height:400px;
 
   }
@@ -137,4 +137,8 @@ input{
   }
 .filter > P{
     font-size: 12px;
+}
+.filter > p:hover{
+    color: red;
+    cursor: pointer;
 }
