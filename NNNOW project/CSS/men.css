@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#main_div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#navbar{
+    color:black;
+ display: grid;
+ grid-template-columns: repeat(7, 1fr);
+ font-weight: bold;
+}
+
+.hover_red:hover{
+    color: red;
+}
+
+#sliding_image{
+    width: 100%;
+    height: 350px;
+}
+
+#wardobe_image{
+    color: red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    /* height: 400px; */
+    grid-gap: 20px;
+}
+
+#wardobe_image img{
+    width: 100%;
+    height: 400px;
+}
+
+#cap_gogl_image{
+    width: 100%;
+    height: 150px;
+}
+
+#fashio_trend{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    /* height: 400px; */
+    /* border: 1px solid red; */
+    grid-gap: 10px;
+}
+
+#fashio_trend img{
+    width: 100%;
+    height: 400px;
+}
+
+#talk_town{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 300px;
+}
+
+#talk_town img{
+    width: 100%;
+    height: 300px;
+}
+                     /* note that - 1st set div height then set image height*/
+#season_favourites{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,200px);
+    width: 100%;
+    height: 300px;  /*div height (div height incress below image go down */ 
+}
+                        
+#season_favourites img{
+    width: 100%;
+    height: 300px;  /*image height (image height incress below image over lap */
+}
+
+
+#closet_completers{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 200px;
+}
+
+#closet_completers img{
+    width: 200px;
+    height: 100%;
+}
+
+#top_brands{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 200px;
+}
+
+#top_brands img{
+    width: 200px;
+    height: 100%;
+}
+
+#shop_all{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+/* //slider css */

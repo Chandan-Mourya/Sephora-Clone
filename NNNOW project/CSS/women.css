@@ -1,0 +1,119 @@
+#navbar{
+    color:black;
+ display: grid;
+ grid-template-columns: repeat(7, 1fr);
+ font-weight: bold;
+}
+#sliding_image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 300px; /*medetary to take height for div other vise overlap  other images*/
+}
+
+#sliding_image img{
+    width: 100%;
+    height: 300px;
+}
+
+#favourites_summer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,200px);
+    width: 100%;
+    height: 500px;
+}
+
+#favourites_summer img{
+    width: 100%;
+    height:500px;
+}
+
+#dress_up{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,200px);
+    width: 100%;
+    height: 500px;
+}
+
+#dress_up img{
+    width: 100%;
+    height: 500px;
+}
+
+#what_hot{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 350px;
+}
+
+#what_hot img{
+    width: 100%;
+    height: 300px;
+}
+
+ #beauty_inspo{
+    display: grid; 
+     display:flex;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 160%;
+    height: 400px;
+    grid-gap: 20px;
+} 
+
+ #div{
+    display: grid;
+}
+
+#beauty_inspo img{
+     width: 100%; 
+     height: 400px; 
+}  
+
+ 
+ #what_are_you{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 300px;
+}
+
+#what_are_you img{
+    width: 100%;
+    height: 300px;
+} 
+
+
+#new_arrivals{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,200px);
+    width: 100%;
+    height: 400px; /*incress and decress of div height*/
+    border: 1px solid red;
+ }  
+
+#new_arrivals img{
+    width: 100%;
+    height: 200px; /* we can incress and decress of image height*/
+     border: 1px solid goldenrod; 
+}
+
+#featured_brands{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1, 200px);
+    width: 100%;
+    height: 200px;
+}
+
+#featured_brands img{
+    width: 100%;
+    height: 200px;
+}
