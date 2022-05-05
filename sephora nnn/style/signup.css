@@ -1,0 +1,23 @@
+#signup{
+    padding: 3%;
+    width: 350px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: auto;
+}
+.input{
+    height: 30px;
+    width: 100%;
+    border: 3px solid red;
+}
+#signup_btn{
+    width: 102%;
+    background-color: #FF3399;
+    height: 35px;
+    color: azure;
+    font-size: medium;
+    border: none;
+}
+*{
+    font-family: sans-serif;
+}
