@@ -1,0 +1,26 @@
+#main{
+    width: 90%;
+    height: 100vh;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#image{
+    width: 40%;
+    height: 100%;
+}
+#prd_title{
+    margin-left: 20px;
+    width: 40%;
+    border: 1px solid teal;
+    height: 60px;
+    font-size: 50px;
+}
+#brand{
+    width: fit-content;
+    margin-left: 20px;
+    border: 1px solid teal;
+    height: 60px;
+    font-size: 40px;
+}
+
