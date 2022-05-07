@@ -1,11 +1,18 @@
 #signup{
     padding: 3%;
     width: 350px;
-    height: auto;
+    height: 80vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin: auto;
 }
+#or_txt{
+    margin-left: 48%;
+}
+#account_txt{
+    margin-top: 20px;
+}
 .input{
+    
     height: 30px;
     width: 100%;
     border: 3px solid red;
@@ -17,6 +24,7 @@
     color: azure;
     font-size: medium;
     border: none;
+    margin-bottom: 30px;
 }
 *{
     font-family: sans-serif;

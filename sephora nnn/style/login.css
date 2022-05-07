@@ -4,7 +4,10 @@
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin: auto;
-    
+    display: none;
+}
+body{
+    background:teal;
 }
 *{
     font-family: sans-serif;
@@ -41,4 +44,14 @@
 #login_or{
     display: flex;
     justify-content: center;
+}
+
+
+
+#login_card .close-btn{
+    float: right;
+    margin-top: -20px;
+    margin-right: -20px;
+    color: #FF3399;
+    font-size: 18px;
 }
