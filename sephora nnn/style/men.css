@@ -1,6 +1,4 @@
-
 #products{
-    
     height: 80vh;
 }
 #main_cont{
@@ -36,4 +34,35 @@
 #image{
     width: 100%;
     height: 60%;
+}
+.prd{
+    transition: transform 0.2s;
+}
+.prd:hover{
+    transform: scale(1.2);
+}
+#color {
+    color: #D50032;
+}
+#para {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 10%;
+    color: gray;
+}
+#category {
+    width: 80%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#sort {
+    margin-left: 74%;
+    margin-right: 10px;
+}
+#input {
+    border: 2px solid black;
 }
