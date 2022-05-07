@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/men.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- <script src="https://kit.fontawesome.com/cb9c36b3b4.js" crossorigin="anonymous"></script> -->
     <title>Men</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+ <style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
@@ -17,7 +20,7 @@
 
 </head>
 <body>
-    <div id="main_div">
+   
         <div id="navbar">
             <div class="hover_red">MEN</div>
             <div class="hover_red">WOMEN</div>
@@ -28,26 +31,39 @@
             <div class="hover_red">BRANDS</div>
         </div>
     
-        <div>
-            <div class="w3-content w3-display-container" style="max-width:100%">
-                <img class="mySlides" src="https://logan.nnnow.com/content/dam/nnnow-project/04-may-2022/01MAY22-AEROPOSTALE-MLP-TB-DSK.jpg" style="width:100%">
-                <img class="mySlides" src="https://logan.nnnow.com/content/dam/nnnow-project/04-may-2022/1MAY22-USPA-SS22-MLP-DSK.jpg" style="width:100%">
-                <img class="mySlides" src="https://logan.nnnow.com/content/dam/nnnow-project/31-mar-2022/1April22-MLP_TB-DSK.jpg" style="width:100%">
-                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                  <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                  <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                </div>
-              </div>
+     
 
-            <!-- <img id="sliding_image" src="https://logan.nnnow.com/content/dam/nnnow-project/21-april-2022/22APR22-AEROPOSTALE-MLP-TB-DSK.jpg" alt=""> -->
+
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="https://logan.nnnow.com/content/dam/nnnow-project/06-may-2022/05MAY22-Arrow-MLP-Banner-DSK.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://logan.nnnow.com/content/dam/nnnow-project/04-may-2022/1MAY22-USPA-SS22-MLP-DSK.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://logan.nnnow.com/content/dam/nnnow-project/05-may-2022/6MAY22-USPA-MLP-DSK.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://logan.nnnow.com/content/dam/nnnow-project/31-mar-2022/1April22-MLP_TB-DSK.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="https://logan.nnnow.com/content/dam/nnnow-project/05-may-2022/6MAY22-TH-BrandDay-Topbanner-MLP-Desk.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+            </div>
         </div>
     
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+    
         <div>
-            <div>
-                <h1>WARDROBE MUST-HAVES</h1>
+            <div class="titlename">
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/05-april-2021/mlp/BESTSELLINGCATEGORIES.jpg" alt="">
             </div>
             <div id="wardobe_image">
                 <!-- <div>
@@ -55,15 +71,16 @@
                 </div> -->
             </div>
         </div>
-    <div>
-        <img id="cap_gogl_image" src="https://logan.nnnow.com/content/dam/nnnow-project/30-mar-2022/mlp/STRIP-DSK.jpg" alt="">
-    </div>
-    
+
+        <div id="cap_gogl">
+            <img src="https://logan.nnnow.com/content/dam/nnnow-project/30-mar-2022/mlp/STRIP-DSK.jpg" alt="">
+        </div>
+ 
     <div >
         <div>
-            <h1>
-                ON THE FASHION TREND-WILL
-            </h1>
+            <div class="titlename">
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/25-nov-2020/mpl-headers/ONTHEFASHIONTREND-MILL_DSK.jpg" alt="">
+            </div>
         </div>
         <div id="fashio_trend">
             <!-- <div>
@@ -74,9 +91,9 @@
     
     <div>
         <div>
-            <h1>
-                THE TALK OF THE TOWN
-            </h1>
+            <div class="titlename">
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/25-nov-2020/mpl-headers/THETALKOFTHETOWN.DSKjpg.jpg" alt="">
+            </div>
         </div>
         <div id="talk_town">
             <!-- <div>
@@ -86,8 +103,8 @@
     </div>
     
     <div>
-        <div>
-            <h1>SEASON FAVOURITES</h1>
+        <div id="season_favourites_titlename">
+            <img src="https://logan.nnnow.com/content/dam/nnnow-project/17-feb-2021/SEASONFAVOURITES-MLP-DSK.jpg" alt="">
         </div>
         <div id="season_favourites">
             <!-- <div>
@@ -96,32 +113,52 @@
         </div>
     </div>
     
-    <!-- <div>
+    <div>
         <div>
-            <h1>
-                CLOSET COMPLETERS
-            </h1>
+            <div class="titlename">
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/25-nov-2020/mpl-headers/CLOSETCOMPLETERSDSK.jpg" alt="">
+            </div>
         </div>
         <div id="closet_completers">
             <div>
                 <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/CLOSETCOMPLETERS-belts.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/CLOSETCOMPLETERS-watches.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/05-april-2021/mlp/CLOSETCOMPLETERS-Fragrances.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/CLOSETCOMPLETERS-Innerwear.jpg" alt="">
             </div>
         </div>
     </div>
     
     <div>
         <div>
-            <h1>TOP BRANDS</h1>
+            <div class="titlename">
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/25-nov-2020/mpl-headers/TOPBRANDS.DSKjpg.jpg" alt="">
+            </div>
         </div>
         <div id="top_brands">
             <div>
                 <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/USPABIF.jpg" alt="">
             </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/ArrowBIF.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/FMBIF.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://logan.nnnow.com/content/dam/nnnow-project/10-oct-2021/mlp/CKBIF.jpg" alt="">
+            </div>
         </div>
-    </div> -->
+    </div>
     
     <div id="shop_all">
-        <h1>SHOP ALL</h1>
+        <h4><img src="https://logan.nnnow.com/content/dam/nnnow-project/23-nov-2020/Shopall-DSK.jpg" alt=""></h4>
     </div>
 
     </div>
