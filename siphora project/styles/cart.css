@@ -23,8 +23,7 @@
     width:68%;
     height: auto;
    border: 1px solid red;
-display: flex;
-flex-direction: column;
+
 }
 #detail{
     width:32%;

@@ -97,7 +97,9 @@ let data = JSON.parse(localStorage.getItem("cart")) || [];
 
 console.log(data);
 
+products(data);
 function products(data){
+
     
     let div = document.createElement("div")
         div.setAttribute("id","div_main")
@@ -124,11 +126,12 @@ function products(data){
      let remove = document.createElement("button")
          remove.innerText = "Remove"
          remove.addEventListener("click",function(){
-             localStorage.clear()
-                data.splice(index,1)
-              window.location.reload()
-              localStorage.setItem("cart",JSON.stringify(data)) 
+              
+            data.splice(index,1)
+            window.location.reload()
+            localStorage.setItem("cart",JSON.stringify(data))
          })
+
      let price = document.createElement("h3")
          price.innerText = `Rs. ${elem.price}`
      
@@ -159,16 +162,14 @@ function products(data){
      main.append(div)
 
     })
-   
-     
+    
 }
-
-// function remove(elem,index){
+function remove(index){
   
-//   data.splice(index,1)
-//   window.location.reload()
-//   localStorage.setItem("cart",JSON.stringify(data))
+   
+  
+  }
+ 
 
-// }
-products(data);
+
 
