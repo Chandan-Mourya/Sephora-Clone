@@ -164,12 +164,7 @@ function products(data){
     })
     
 }
-function remove(index){
-  
-   
-  
-  }
- 
+
 
 
 
