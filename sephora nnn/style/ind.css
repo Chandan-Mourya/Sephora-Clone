@@ -2,7 +2,7 @@
     width: 80%;
     height: 100vh;
     display: flex;
-    border: 1px solid black;
+    
     flex-wrap: wrap;
     margin: auto;
 }
@@ -11,7 +11,7 @@
 }
 #ind_img{
     width: 50%;
-    border: 1px solid red;
+    
 }
 #image{
     margin: auto;
@@ -44,6 +44,8 @@
     padding: 15px;
 }
 #color_box{
+    padding: 5px;
+    border: 3px solid black;
     margin-left: 15px;
     height: 35px;
     width: 35px;
@@ -59,4 +61,15 @@
     background-color: #FF3399;
     border: none;
 }
-
+#favbtn{
+    height: 60px;
+    width: 60px;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+#sharebtn{
+    height: 60px;
+    width: 60px;
+    margin-top: 10%;
+    margin-left: 3%;
+}
