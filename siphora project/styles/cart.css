@@ -21,6 +21,10 @@
 }
 #main{
     width:68%;
+    height: auto;
+   border: 1px solid red;
+display: flex;
+flex-direction: column;
 }
 #detail{
     width:32%;
@@ -67,9 +71,11 @@
     display: flex;
     border-bottom: 1.5px solid black;
     height:200px;  
+   
 }
 #div_main>img{
     padding-right:30px;
+  
 }
 #div_main>div:nth-child(2){
     padding-right:50px;

@@ -1,4 +1,7 @@
 
+
+
+
 let detail = document.querySelector("#detail")
 
 let main = document.querySelector("#main")
@@ -90,15 +93,16 @@ let icon_promo = document.createElement("img")
    
     detail.append(promo,overview,checkout,shopmore,sbi);
 
+let data = JSON.parse(localStorage.getItem("cart")) || [];
 
+console.log(data);
 
-
-function products(){
-
+function products(data){
+    
     let div = document.createElement("div")
         div.setAttribute("id","div_main")
 
-    // data.map(function(){
+    data.forEach(function(elem,index){
 
      let div1 = document.createElement("div")
          div1.setAttribute("id","prod_detail")
@@ -106,21 +110,27 @@ function products(){
          div2.setAttribute("id","qty_price")
     
      let image = document.createElement("img")
-         image.src ="https://cdn10.nnnow.com/web-images/thumbnail/styles/OCEAUYRCRW9/1650866461714/1.jpg";
+         image.src = elem.image
      let brand = document.createElement("p")
-         brand.innerText = "bramd"
+         brand.innerText = elem.brandname
      let title = document.createElement("h3")
-         title.innerText ="Title";
+         title.innerText = elem.title
      let color = document.createElement("p")
-         color.innerText = `Color: {"white}`
+         color.innerText = `Color: ${elem.color}`
      let size = document.createElement("p")
-          size.innerText = `Size - {"L"}`
+          size.innerText = `Size - l`
      let fav = document.createElement("button")
          fav.innerText = "Move to Favorites";
      let remove = document.createElement("button")
          remove.innerText = "Remove"
+         remove.addEventListener("click",function(){
+             localStorage.clear()
+                data.splice(index,1)
+              window.location.reload()
+              localStorage.setItem("cart",JSON.stringify(data)) 
+         })
      let price = document.createElement("h3")
-         price.innerText = `Rs. {1500}`
+         price.innerText = `Rs. ${elem.price}`
      
      let select = document.createElement("select")
          let s1 = document.createElement("option")
@@ -148,10 +158,17 @@ function products(){
 
      main.append(div)
 
-    // })
+    })
    
      
 }
+
+// function remove(elem,index){
   
-products();
+//   data.splice(index,1)
+//   window.location.reload()
+//   localStorage.setItem("cart",JSON.stringify(data))
+
+// }
+products(data);
 

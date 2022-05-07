@@ -1,9 +1,9 @@
 //import { navbar } from "./component/navbar.js";
 
 //import {navbar} from "../Sephora-Clone/component/navbar.js"
-import {navbar} from "../Sephora-Clone/component/navbar.js"
+import {navbar} from "./component/navbar.js"
 
-import {footer} from "../Sephora-Clone/component/footer.js"
+import {footer} from "./component/footer.js"
 
 let n=document.getElementById("navbar");
 n.innerHTML = navbar();
