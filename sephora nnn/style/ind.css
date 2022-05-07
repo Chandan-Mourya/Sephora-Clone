@@ -1,0 +1,62 @@
+#main{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin: auto;
+}
+*{
+    font-family: sans-serif;
+}
+#ind_img{
+    width: 50%;
+    border: 1px solid red;
+}
+#image{
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    transition: transform 0.265s;
+    margin-top: 20px;
+}
+#image:hover{
+    transform: scale(1.1);
+}
+#ind_txt{
+    padding: 5%;
+}
+#prd_title{
+    font-size: 30px;
+}
+#brand{
+    font-size: 25px;
+}
+#prd_price{
+    font-size: larger;
+}
+#ind_text{
+    color: red;
+    font-weight: bold;
+}
+#prd_color{
+    font-family: sans-serif;
+    padding: 15px;
+}
+#color_box{
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+}
+#cartbtn{
+    margin-top: 10%;
+    height: 40px;
+    width: 100%;
+    margin-left: 10%;
+    font-size: medium;
+    font-weight: bold;
+    color: azure;
+    background-color: #FF3399;
+    border: none;
+}
+

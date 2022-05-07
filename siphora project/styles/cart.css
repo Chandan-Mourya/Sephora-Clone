@@ -1,0 +1,89 @@
+
+#promo,#checkout,#shopmore  :hover {
+   cursor: pointer;
+}
+
+.uppar2{
+    height:50px;
+    width:99%;
+    background-color: #0092df;
+    display:flex;
+    align-items: center;
+    color:white;
+    padding-left :20px;
+   
+}
+#products{
+    margin-left: 10px;
+}
+#container{
+    display: flex;
+}
+#main{
+    width:68%;
+}
+#detail{
+    width:32%;
+}
+#promo{
+    display: flex;
+    background-color:#f2f2f2;
+    align-items: center;
+     margin-top: 40px;
+     padding:5px;
+     justify-content: center;
+}
+#overview{
+    background-color:#f2f2f2; 
+    padding:10px;
+    margin-top: 30px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+#checkout{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff3399;
+    color:white;
+    margin-top: 20px;
+}
+#shopmore{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    margin-top: 20px;
+}#sbi{
+    margin-top: 20px;
+}
+#sbi>img{
+  height:80px;
+  width:100%;
+}
+#div_main{
+    display: flex;
+    border-bottom: 1.5px solid black;
+    height:200px;  
+}
+#div_main>img{
+    padding-right:30px;
+}
+#div_main>div:nth-child(2){
+    padding-right:50px;
+}
+#qty_price{
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    height:60px;
+    align-items: center;
+    margin-top: 20px;
+ 
+}
+#selector{
+
+    display: flex;
+}
