@@ -81,10 +81,12 @@ input{
     text-align: center;
 }
 #mid-c{
+    /* border: 1px solid black; */
     text-align: end;
     padding-right: 150px;
     padding-top: 10px;
 }
+
 
 #bottom_navbar{
     height: 20%;

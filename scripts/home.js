@@ -33,3 +33,18 @@ const swiper = new Swiper('.swiper', {
 
 
 });
+
+
+
+
+let search = (e) => {
+    if(e.key === "Enter"){
+        let value  = document.getElementById("query").value;
+  
+   
+    window.location.href="kids.html";
+
+    }
+};
+
+document.getElementById("query").addEventListener("keydown", search);

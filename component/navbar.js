@@ -1,5 +1,5 @@
 let navbar = () => {
-    return ` <div id="top_navbar">
+  return ` <div id="top_navbar">
     <div id="top-a">
         <p><a href="#"><i style="color: #FF3399;" class="fa-solid fa-location-dot"></i> &nbsp Store Locator &nbsp </a> | &nbsp <a href="https://play.google.com/store/apps/details?id=com.nnnow.arvind&hl=en"><i style="color: #FF3399;"  class="fa-solid fa-download"></i> &nbsp Get App </a></p>
     </div>
@@ -12,14 +12,14 @@ let navbar = () => {
 </div>
 <div id="mid_navbar">
     <div id="mid-a">
-        <p><img src="/Sephora-Clone/component/search.jpeg" alt="" style="height: 15px; width:15px;">&nbsp <input  type="text" placeholder="Search NNNOW"></p>
+        <p><img src="/Sephora-Clone/component/search.jpeg" alt="" style="height: 15px; width:15px;">&nbsp <input id="query" type="text" placeholder="Search NNNOW"></p>
 
     </div>
     <div id="mid-b">
        <a href="index.html"> <img src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png" alt=""> </a>
     </div>
     <div id="mid-c">
-        <p><i style="color: #FF3399;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <a href="./cart.html"><i style="color: #FF3399;"class="fas fa-shopping-bag"></i>&nbsp</a> | &nbsp<a href="./login.html"> <i style="color: #FF3399;" class="fa-regular fa-user"></i> &nbsp  Login</a></p>
+        <p><i style="color: #FF3399;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <a href="./cart.html">  <i style="color: #FF3399;"class="fas fa-shopping-bag"></i>&nbsp</a>  | &nbsp<a href="./login.html"> <i style="color: #FF3399;" class="fa-regular fa-user"></i> &nbsp  Login</a></p>
 
     </div>
 </div>
@@ -698,7 +698,10 @@ let navbar = () => {
 
 
 
-</div>`
-}
+</div>`;
+};
 
-export {navbar}
+
+
+
+export { navbar };

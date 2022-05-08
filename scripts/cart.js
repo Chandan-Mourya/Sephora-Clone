@@ -103,6 +103,12 @@ let icon_promo = document.createElement("img")
 
 let data = JSON.parse(localStorage.getItem("cart")) || [];
 
+let count = data.length
+
+let a =  
+console.log("count: ", count);
+
+
 console.log(data);
 
 products(data);
