@@ -1,3 +1,11 @@
+import {navbar} from "../component/navbar.js"
+
+import {footer} from "../component/footer.js"
+
+let n=document.getElementById("chandan_navbar");
+n.innerHTML = navbar();
+
+
 let prd_deatils = JSON.parse(localStorage.getItem("prd_details"));
 let array =JSON.parse(localStorage.getItem("cart")) || [];
 // 

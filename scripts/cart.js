@@ -163,12 +163,19 @@ function products(data){
           selector.setAttribute("id","selector")
           selector.append(qty,select)
      
-     div1.append(brand,title,color,size,fav,remove)
-     div2.append(selector,price)
-
-     div.append(image,div1,div2)
-
+     div1.append(brand,title,color,size,fav,remove,selector,price)
+    //  div2.append(selector,price)
+     let div0 = document.createElement("div")
+     div0.append(image)
+     div0.setAttribute("class","div0")
+         let box =  document.createElement("div")
+         box.setAttribute("class","box")
+      
+         box.append(div0,div1,div2)
+     div.append(box)
+     
      main.append(div)
+     
 
     })
     
