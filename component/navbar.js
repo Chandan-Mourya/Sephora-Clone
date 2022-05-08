@@ -1,31 +1,31 @@
 let navbar = () => {
     return ` <div id="top_navbar">
     <div id="top-a">
-        <p><a href="#"><i style="color: red;" class="fa-solid fa-location-dot"></i> &nbsp Store Locator &nbsp </a> | &nbsp <a href="#"><i style="color: red;"  class="fa-solid fa-download"></i> &nbsp Get App </a></p>
+        <p><a href="#"><i style="color: #FF3399;" class="fa-solid fa-location-dot"></i> &nbsp Store Locator &nbsp </a> | &nbsp <a href="#"><i style="color: #FF3399;"  class="fa-solid fa-download"></i> &nbsp Get App </a></p>
     </div>
     <div id="top-b">
-        <p> <a href="#"><i style="color: #748;" class="fa-solid fa-star"></i> <i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: red;" class="fa-solid fa-star"></i> Colt: Tees starting at ₹249 <i style="color: red;" class="fa-solid fa-star"></i><i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: #748;" class="fa-solid fa-star"></i> </a></p>
+        <p> <a href="#"><i style="color: #748;" class="fa-solid fa-star"></i> <i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: #FF3399;" class="fa-solid fa-star"></i> Colt: Tees starting at ₹249 <i style="color: #FF3399;" class="fa-solid fa-star"></i><i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: #748;" class="fa-solid fa-star"></i> </a></p>
     </div>
     <div id="top-c">
-        <p><a href="#"><i style="color: red;" class="fa-solid fa-cube"></i> &nbsp Track Order &nbsp </a> |<a href="#"> <i style="color: red;" class="fa-solid fa-trophy"></i> &nbsp Loyality </a></p>
+        <p><a href="#"><i style="color: #FF3399;" class="fa-solid fa-cube"></i> &nbsp Track Order &nbsp </a> |<a href="#"> <i style="color: #FF3399;" class="fa-solid fa-trophy"></i> &nbsp Loyality </a></p>
     </div>
 </div>
 <div id="mid_navbar">
     <div id="mid-a">
-        <p><i style="color: red;" class="fa-regular fa-magnifying-glass"></i>&nbsp <input  type="text" placeholder="Search NNNOW"></p>
+        <p><i style="color: #FF3399;" class="fa-regular fa-magnifying-glass"></i>&nbsp <input  type="text" placeholder="Search NNNOW"></p>
 
     </div>
     <div id="mid-b">
         <img src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png" alt="">
     </div>
     <div id="mid-c">
-        <p><i style="color: red;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <i style="color: red;" class="fa-regular fa-cart-shopping"></i>&nbsp | &nbsp <i style="color: red;" class="fa-regular fa-user"></i> &nbsp  Login</p>
+        <p><i style="color: red;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <a href="./cart.html"><i style="color: red;" class="fa-regular fa-cart-shopping"></i>&nbsp</a> | &nbsp<a href="./login.html"> <i style="color: red;" class="fa-regular fa-user"></i> &nbsp  Login</a></p>
 
     </div>
 </div>
 <div id="bottom_navbar">
     <div class="dropdown">
-        <a href="#" class="dropbtn">MEN</a>
+        <a href="./men.html" class="dropbtn">MEN</a>
         <div class="dropdown-content" id="dc">
           <div class="mega-menu">
 
@@ -36,11 +36,11 @@ let navbar = () => {
   
                    <div class="filter">
                   
-                    <p>T-Shirts & Polos</p>
+                    <p><a href="./men_tshirts.html">T-Shirts & Polos</a> </p>
                   
-                    <p>Casual Shirts</p>
+                    <p><a href="./men_casual.html">Casual Shirts</a> </p>
                  
-                    <p>Formal Shirts</p>
+                    <p><a href="./men_products.html">Formal Shirts</a> </p>
                   
                     <p>Sweatshirts</p>
                   
@@ -152,7 +152,7 @@ let navbar = () => {
     </div>
 
     <div class="dropdown">
-        <a href="bangles.html" class="dropbtn">WOMEN</a>
+        <a href="./women.html" class="dropbtn">WOMEN</a>
         <div class="dropdown-content" id="dc">
             <div class="mega-menu">
 
@@ -163,7 +163,7 @@ let navbar = () => {
       
                        <div class="filter">
                       
-                        <p>T-Shirts & Polos</p>
+                        <p><a href="./women_products.html">T-Shirts & Polos</a> </p>
                       
                         <p>Kurtas</p>
                      
@@ -266,7 +266,7 @@ let navbar = () => {
       </div>
 
       <div class="dropdown">
-        <a href="earring.html" class="dropbtn">KIDS</a>
+        <a href="./kids.html" class="dropbtn">KIDS</a>
         <div class="dropdown-content" id="dc">
             <div class="mega-menu">
 
@@ -506,7 +506,7 @@ let navbar = () => {
     </div>
 
     <div class="dropdown">
-        <a href="bangles.html" class="dropbtn">FOOTWEAR</a>
+        <a href="./shoes.html" class="dropbtn">FOOTWEAR</a>
         <div class="dropdown-content" id="dc">
             <div class="mega-menu">
 

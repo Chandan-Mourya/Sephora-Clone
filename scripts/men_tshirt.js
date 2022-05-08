@@ -1,3 +1,11 @@
+import {navbar} from "../component/navbar.js"
+
+
+let n=document.getElementById("chandan_navbar");
+n.innerHTML = navbar();
+
+
+
 fetch("https://www2.hm.com/en_in/men/shop-by-product/tshirts-tank-tops/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36")
 	.then (function(res){
         return res.json()

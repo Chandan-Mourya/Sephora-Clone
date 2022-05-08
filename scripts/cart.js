@@ -35,24 +35,16 @@ let icon_promo = document.createElement("img")
     let p1 = document.createElement("h3")
         p1.innerText = "Subtotal"
     let p2 =  document.createElement("h3")
-        p2.innerText = `${Subtotal}`
+        p2.innerText = `${1500}`
         subtotal.append(p1,p2)
-
-        
-     let Subtotal = data.reduce(function(sum,elem){
-        return sum += elem.price ;
-   },0);
 
         let discount = document.createElement("div")
             discount.setAttribute("class","detail")
     let p3 = document.createElement("h3")
         p3.innerText = "Discount"
     let p4 =  document.createElement("h3")
-        p4.innerText = `${Discount}`
+        p4.innerText = `${1500}`
         discount.append(p3,p4)
-
-    let Discount = Subtotal/100*40;
-    console.log(Discount)
 
      
     let gst = document.createElement("div")
@@ -78,14 +70,12 @@ let icon_promo = document.createElement("img")
     let p9 = document.createElement("h3")
         p9.innerText = "Total"
     let rs =  document.createElement("h3")
-        rs.innerText = `${Total}`
+        rs.innerText = `${1500}`
         total.append(p9,rs)
-
-        let Total = Subtotal-Discount;
 
     overview.append(h1,subtotal,discount,gst,dilvery_charges,hr,total);
 
-     
+
 
         let checkout = document.createElement("div")
         checkout.addEventListener("click",function(){
