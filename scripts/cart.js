@@ -4,7 +4,7 @@ import {navbar} from "../component/navbar.js"
 let n=document.getElementById("chandan_navbar");
 n.innerHTML = navbar();
 
-
+let data = JSON.parse(localStorage.getItem("cart")) || [];
 
 
 let detail = document.querySelector("#detail")
@@ -30,20 +30,26 @@ let icon_promo = document.createElement("img")
     let h1 = document.createElement("h2")
         h1.innerText = "OVERVIEW";
 
+        let Subtotle = data.reduce(function(sum,elem){
+            return sum += elem.price
+        },0)
+
     let subtotal = document.createElement("div")
         subtotal.setAttribute("class","detail")
     let p1 = document.createElement("h3")
         p1.innerText = "Subtotal"
     let p2 =  document.createElement("h3")
-        p2.innerText = `${1500}`
+        p2.innerText = `${Subtotle}`
         subtotal.append(p1,p2)
+
+        
 
         let discount = document.createElement("div")
             discount.setAttribute("class","detail")
     let p3 = document.createElement("h3")
         p3.innerText = "Discount"
     let p4 =  document.createElement("h3")
-        p4.innerText = `${1500}`
+        p4.innerText = `${200}`
         discount.append(p3,p4)
 
      
@@ -52,7 +58,7 @@ let icon_promo = document.createElement("img")
     let p5 = document.createElement("h3")
         p5.innerText = "GST"
     let p6 =  document.createElement("h3")
-        p6.innerText = `${1500}`
+        p6.innerText = `${100}`
         gst.append(p5,p6)   
      
         let dilvery_charges = document.createElement("div")
@@ -60,7 +66,7 @@ let icon_promo = document.createElement("img")
     let p7 = document.createElement("h3")
         p7.innerText = "Dilvery charges"
     let p8 =  document.createElement("h3")
-        p8.innerText = `${1500}`
+        p8.innerText = `${50}`
          dilvery_charges.append(p7,p8)
 
     let hr= document.createElement("hr")
@@ -70,7 +76,7 @@ let icon_promo = document.createElement("img")
     let p9 = document.createElement("h3")
         p9.innerText = "Total"
     let rs =  document.createElement("h3")
-        rs.innerText = `${1500}`
+        rs.innerText = `Rs:${2149}`
         total.append(p9,rs)
 
     overview.append(h1,subtotal,discount,gst,dilvery_charges,hr,total);
@@ -79,7 +85,7 @@ let icon_promo = document.createElement("img")
 
         let checkout = document.createElement("div")
         checkout.addEventListener("click",function(){
-            window.location.href ="../checkout.html"
+            window.location.href ="checkout.html";
         })
         checkout.setAttribute("id","checkout");      
             let check = document.createElement("h2")
@@ -101,7 +107,7 @@ let icon_promo = document.createElement("img")
    
     detail.append(promo,overview,checkout,shopmore,sbi);
 
-let data = JSON.parse(localStorage.getItem("cart")) || [];
+
 
 console.log(data);
 
@@ -142,7 +148,7 @@ function products(data){
          })
 
      let price = document.createElement("h3")
-         price.innerText = `Rs. ${elem.price}`
+         price.innerText = `${elem.price}`
      
      let select = document.createElement("select")
          let s1 = document.createElement("option")
