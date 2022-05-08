@@ -1,7 +1,7 @@
 let navbar = () => {
     return ` <div id="top_navbar">
     <div id="top-a">
-        <p><a href="#"><i style="color: #FF3399;" class="fa-solid fa-location-dot"></i> &nbsp Store Locator &nbsp </a> | &nbsp <a href="#"><i style="color: #FF3399;"  class="fa-solid fa-download"></i> &nbsp Get App </a></p>
+        <p><a href="#"><i style="color: #FF3399;" class="fa-solid fa-location-dot"></i> &nbsp Store Locator &nbsp </a> | &nbsp <a href="https://play.google.com/store/apps/details?id=com.nnnow.arvind&hl=en"><i style="color: #FF3399;"  class="fa-solid fa-download"></i> &nbsp Get App </a></p>
     </div>
     <div id="top-b">
         <p> <a href="#"><i style="color: #748;" class="fa-solid fa-star"></i> <i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: #FF3399;" class="fa-solid fa-star"></i> Colt: Tees starting at ₹249 <i style="color: #FF3399;" class="fa-solid fa-star"></i><i style="color: #fd6;" class="fa-solid fa-star"></i><i style="color: #748;" class="fa-solid fa-star"></i> </a></p>
@@ -12,14 +12,14 @@ let navbar = () => {
 </div>
 <div id="mid_navbar">
     <div id="mid-a">
-        <p><i style="color: #FF3399;" class="fa-regular fa-magnifying-glass"></i>&nbsp <input  type="text" placeholder="Search NNNOW"></p>
+        <p><img src="/Sephora-Clone/component/search.jpeg" alt="" style="height: 15px; width:15px;">&nbsp <input  type="text" placeholder="Search NNNOW"></p>
 
     </div>
     <div id="mid-b">
-        <img src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png" alt="">
+       <a href="index.html"> <img src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png" alt=""> </a>
     </div>
     <div id="mid-c">
-        <p><i style="color: red;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <a href="./cart.html"><i style="color: red;" class="fa-regular fa-cart-shopping"></i>&nbsp</a> | &nbsp<a href="./login.html"> <i style="color: red;" class="fa-regular fa-user"></i> &nbsp  Login</a></p>
+        <p><i style="color: #FF3399;" class="fa-regular fa-heart"></i> &nbsp | &nbsp <a href="./cart.html"><i style="color: #FF3399;"class="fas fa-shopping-bag"></i>&nbsp</a> | &nbsp<a href="./login.html"> <i style="color: #FF3399;" class="fa-regular fa-user"></i> &nbsp  Login</a></p>
 
     </div>
 </div>
