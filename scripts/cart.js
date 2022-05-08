@@ -60,7 +60,7 @@ let icon_promo = document.createElement("img")
     let p5 = document.createElement("h3")
         p5.innerText = "GST"
     let p6 =  document.createElement("h3")
-        p6.innerText = `${1500}`
+        p6.innerText = `${200}`
         gst.append(p5,p6)   
      
         let dilvery_charges = document.createElement("div")
@@ -68,7 +68,7 @@ let icon_promo = document.createElement("img")
     let p7 = document.createElement("h3")
         p7.innerText = "Dilvery charges"
     let p8 =  document.createElement("h3")
-        p8.innerText = `${1500}`
+        p8.innerText = `${50}`
          dilvery_charges.append(p7,p8)
 
     let hr= document.createElement("hr")
@@ -81,7 +81,7 @@ let icon_promo = document.createElement("img")
         rs.innerText = `${Total}`
         total.append(p9,rs)
 
-        let Total = Subtotal-Discount;
+        let Total = Subtotal-Discount+200+50;
 
     overview.append(h1,subtotal,discount,gst,dilvery_charges,hr,total);
 
